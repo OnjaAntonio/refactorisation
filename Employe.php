@@ -14,7 +14,7 @@ class Employe extends CI_Controller {
         $this->load->view('admin/home');
         $this->load->view('layouts/Admin_footer');
     }
-
+//fonction pour ajouter un membre
     public function addMember(){
 
         $validator = array('success'=> false, 'messages' => array());
